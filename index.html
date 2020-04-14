@@ -2,87 +2,14 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<!-- 引入 ECharts 文件 -->
-		<script src="js/echarts.js"></script>
-		<script src="js/jquery-3.3.1.js"></script>
+        <script src="https://unpkg.com/vue"></script>
+        <script src="./myLib.umd.js"></script>
 		<title></title>
 	</head>
 	<body>
-		 <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
-    <div id="main" style="width: 600px;height:400px;"></div>
-	<hr></hr>
-	<p>标题：<input type="text" id="test" value="米老鼠"></p> <br />
-	<p>颜色：<input type="color" value="#34538b" id="title_color"/></p> <br />
-	
-	<button>显示值</button>
-    <script type="text/javascript">
-        // 基于准备好的dom，初始化echarts实例
-        var myChart = echarts.init(document.getElementById('main'));
-
-        // 指定图表的配置项和数据
-        var option1 = {
-            title: {
-                text: 'ECharts门示例'
-            },
-            tooltip: {},
-            legend: {
-                data:['销量']
-            },
-            xAxis: {
-                data: ["毛衣","羊毛衫","雪纺衫","裤子","高跟鞋","袜子"]
-            },
-            yAxis: {},
-            series: [{
-                name: '销量',
-                type: 'bar',
-                data: [5, 20, 36, 10, 10, 20]
-            }]
-        };
-		
-        var option2 = {
-            title: {
-                text: "我是新的标题"
-            },
-			xAxis: {
-			    data: ["a","b","c","d","高跟鞋","袜子"],
-			}
-        };
-        // 使用刚指定的配置项和数据显示图表。
-        myChart.setOption(option1);
-		myChart.setOption({
-		        title: {
-		            text: "fewf",
-					textStyle:{
-						color:'red',
-						fontSize:30,
-					}
-		        }
-		    });
-		//myChart.setOption(option2);
+    <script>
+        console.log(window.myLib.default)
     </script>
-<script>
-$(document).ready(function(){
-  $("#test").keydown(function(){
-    myChart.setOption({
-            title: {
-                text: $("#test").val(),
-				textStyle: {color:"#009"}
-            }
-        });
-  });
-  $("title_color").change = function(){
-    myChart.setOption({
-            title: {
-				text:"颜色改变",
-                textStyle: {color:"#009"}
-            }
-        });
-};
-
-});
-</script>
-
-
 </body>	
-	</body>
+
 </html>
