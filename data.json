@@ -1,0 +1,3940 @@
+slideData({
+	"layout": [
+		{
+			"i": "0",
+			"x": 0,
+			"y": 0,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 2,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 0,
+					"y": 4,
+					"w": 12,
+					"h": 4,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 20
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "fadeInLeft",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "ck",
+						"detail": "<p style=\"text-align:center;\"><span style=\"font-size:48px;\"><strong>XX公司2020年度总结</strong></span></p>"
+					},
+					"moved": false
+				},
+				{
+					"x": 4,
+					"y": 8,
+					"w": 4,
+					"h": 3,
+					"i": "1",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 2,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "ck",
+						"detail": "<p style=\"text-align:center;\"><span style=\"font-size:24px;font-family:楷体;\">2020.03.30</span></p>"
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "1",
+			"x": 0,
+			"y": 5,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 1,
+					"y": 2,
+					"w": 10,
+					"h": 11,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "multi-bar",
+						"detail": {
+							"sheetData": [
+								[
+									"",
+									"Ford",
+									"Tesla",
+									"Toyota",
+									"Honda"
+								],
+								[
+									"2017",
+									10,
+									11,
+									12,
+									13
+								],
+								[
+									"2018",
+									20,
+									11,
+									14,
+									13
+								],
+								[
+									"2019",
+									30,
+									15,
+									12,
+									13
+								]
+							],
+							"nr": 4,
+							"nc": 5,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"simpleBar": {
+								"barMaxWidth": 50,
+								"barGap": "30%",
+								"barCategoryGap": "20%"
+							},
+							"itemStyle": {
+								"borderColor": "#000",
+								"borderWidth": 0,
+								"borderType": "solid",
+								"shadowBlur": 4,
+								"shadowColor": "rgba(0, 0, 0, 0.5)",
+								"shadowOffsetX": 1,
+								"shadowOffsetY": 1
+							},
+							"label": {
+								"show": false,
+								"position": "top",
+								"distance": 5,
+								"rotate": 0,
+								"offset": [
+									0,
+									0
+								],
+								"color": "blue",
+								"fontWeight": "normal",
+								"fontFamily": "san-serif",
+								"fontSize": 12
+							},
+							"emphasis": {
+								"label": {
+									"show": true,
+									"position": "top",
+									"distance": 5,
+									"rotate": 0,
+									"offset": [
+										0,
+										0
+									],
+									"color": "red",
+									"fontWeight": "normal",
+									"fontFamily": "san-serif",
+									"fontSize": 12
+								},
+								"itemStyle": {
+									"borderColor": "#000",
+									"borderWidth": 0,
+									"borderType": "solid",
+									"shadowBlur": 4,
+									"shadowColor": "rgba(0, 0, 0, 0.5)",
+									"shadowOffsetX": 1,
+									"shadowOffsetY": 1
+								}
+							},
+							"title": {
+								"show": true,
+								"text": "柱状图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 15,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							},
+							"legend": {
+								"show": true,
+								"type": "plain",
+								"left": "center",
+								"right": "auto",
+								"top": "5%",
+								"bottom": "auto",
+								"orient": "horizontal",
+								"align": "auto",
+								"padding": 5,
+								"itemGap": 10,
+								"itemWidth": 25,
+								"itemHeight": 14,
+								"icon": "roundRect",
+								"textStyle": {
+									"color": "#333",
+									"fontWeight": "normal",
+									"fontFamily": "sans-serif",
+									"fontSize": 14,
+									"lineHeight": 56
+								}
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							],
+							"xAxis": {
+								"show": true,
+								"type": "category",
+								"position": "bottom",
+								"name": "X轴名称",
+								"nameLocation": "center",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"none"
+									],
+									"symbolSize": [
+										6,
+										9
+									],
+									"symbolOffset": 6,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 5,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": false,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dashed"
+									}
+								}
+							},
+							"yAxis": {
+								"show": true,
+								"type": "value",
+								"position": "bottom",
+								"name": "Y轴名称",
+								"nameLocation": "end",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolOffset": 6,
+									"symbolSize": [
+										6,
+										9
+									],
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 3,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dotted"
+									}
+								}
+							},
+							"grid": {
+								"containLabel": true,
+								"show": false,
+								"left": "5%",
+								"right": "5%",
+								"top": "20%",
+								"bottom": "5%"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "2",
+			"x": 0,
+			"y": 10,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 4,
+					"y": 14,
+					"w": 4,
+					"h": 2,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "ck",
+						"detail": "<p><span style=\"font-size:24px\">请输入文字</span></p>"
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "3",
+			"x": 0,
+			"y": 15,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 1,
+					"y": 2,
+					"w": 10,
+					"h": 11,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "dt-bar",
+						"detail": {
+							"sheetData": [
+								[
+									"category",
+									"1月",
+									"2月"
+								],
+								[
+									"河南",
+									89.3,
+									58212
+								],
+								[
+									"河北",
+									57.1,
+									78254
+								],
+								[
+									"上海",
+									74.4,
+									41032
+								],
+								[
+									"山东",
+									50.1,
+									12755
+								]
+							],
+							"nr": 5,
+							"nc": 3,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"simpleBar": {
+								"barMaxWidth": 50,
+								"barGap": "30%",
+								"barCategoryGap": "20%"
+							},
+							"timeline": {
+								"show": true,
+								"orient": "horizontal",
+								"inverse": false,
+								"left": 20,
+								"right": 20,
+								"top": "85%",
+								"bottom": "auto",
+								"axisType": "category",
+								"currentIndex": 0,
+								"autoPlay": true,
+								"rewind": false,
+								"loop": true,
+								"playInterval": 2000,
+								"realtime": true,
+								"controlPosition": "left",
+								"symbol": "emptyCircle",
+								"symbolSize": 10,
+								"lineStyle": {
+									"show": true,
+									"color": "#304654",
+									"width": 2,
+									"type": "solid"
+								},
+								"controlStyle": {
+									"show": true,
+									"showPlayBtn": true,
+									"showPrevBtn": true,
+									"showNextBtn": true,
+									"itemSize": 22,
+									"itemGap": 12,
+									"position": "left"
+								}
+							},
+							"itemStyle": {
+								"borderColor": "#000",
+								"borderWidth": 0,
+								"borderType": "solid",
+								"shadowBlur": 4,
+								"shadowColor": "rgba(0, 0, 0, 0.5)",
+								"shadowOffsetX": 1,
+								"shadowOffsetY": 1
+							},
+							"label": {
+								"show": true,
+								"position": "insideRight",
+								"distance": 5,
+								"rotate": 0,
+								"offset": [
+									0,
+									0
+								],
+								"color": "blue",
+								"fontWeight": "normal",
+								"fontFamily": "san-serif",
+								"fontSize": 12
+							},
+							"emphasis": {
+								"label": {
+									"show": true,
+									"position": "insideRight",
+									"distance": 5,
+									"rotate": 0,
+									"offset": [
+										0,
+										0
+									],
+									"color": "red",
+									"fontWeight": "normal",
+									"fontFamily": "san-serif",
+									"fontSize": 12
+								},
+								"itemStyle": {
+									"borderColor": "#000",
+									"borderWidth": 0,
+									"borderType": "solid",
+									"shadowBlur": 4,
+									"shadowColor": "rgba(0, 0, 0, 0.5)",
+									"shadowOffsetX": 1,
+									"shadowOffsetY": 1
+								}
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							],
+							"xAxis": {
+								"show": true,
+								"max": 1000,
+								"type": "value",
+								"position": "top",
+								"name": "X轴名称",
+								"nameLocation": "end",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 5,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolSize": [
+										6,
+										9
+									],
+									"symbolOffset": 6,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 5,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dashed"
+									}
+								}
+							},
+							"yAxis": {
+								"zlevel": 2,
+								"show": true,
+								"type": "category",
+								"position": "bottom",
+								"name": "",
+								"nameLocation": "center",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 5,
+								"nameRotate": 0,
+								"inverse": true,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"none"
+									],
+									"symbolOffset": 6,
+									"symbolSize": [
+										6,
+										9
+									],
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 5,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": false,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dashed"
+									}
+								}
+							},
+							"grid": {
+								"containLabel": true,
+								"show": false,
+								"left": "5%",
+								"right": "10%",
+								"top": "10%",
+								"bottom": "20%"
+							},
+							"title": {
+								"show": true,
+								"text": "动态柱状图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 18,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 1,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 10,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 5
+								},
+								"subtext": "",
+								"subtextStyle": {
+									"color": "#100",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 12,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 1,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 10,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 5
+								},
+								"textAlign": "auto",
+								"textVerticalAlign": "auto",
+								"itemGap": 15,
+								"left": "center",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "4",
+			"x": 0,
+			"y": 20,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 1,
+					"y": 1,
+					"w": 10,
+					"h": 13,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "bi-bar",
+						"detail": {
+							"sheetData": [
+								[
+									"",
+									"Ford",
+									"Tesla",
+									"Toyota",
+									"Honda"
+								],
+								[
+									"2017",
+									10,
+									11,
+									12,
+									13
+								],
+								[
+									"2018",
+									20,
+									11,
+									14,
+									13
+								],
+								[
+									"2019",
+									30,
+									15,
+									12,
+									13
+								]
+							],
+							"nr": 4,
+							"nc": 5,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"itemStyle": {
+								"borderColor": "#000",
+								"borderWidth": 0,
+								"borderType": "solid",
+								"shadowBlur": 4,
+								"shadowColor": "rgba(0, 0, 0, 0.5)",
+								"shadowOffsetX": 1,
+								"shadowOffsetY": 1
+							},
+							"label": {
+								"show": false,
+								"position": "top",
+								"distance": 2,
+								"rotate": 0,
+								"offset": [
+									0,
+									0
+								],
+								"color": "blue",
+								"fontWeight": "normal",
+								"fontFamily": "san-serif",
+								"fontSize": 12
+							},
+							"emphasis": {
+								"label": {
+									"show": true,
+									"position": "top",
+									"distance": 2,
+									"rotate": 0,
+									"offset": [
+										0,
+										0
+									],
+									"color": "red",
+									"fontWeight": "normal",
+									"fontFamily": "san-serif",
+									"fontSize": 12
+								},
+								"itemStyle": {
+									"borderColor": "#000",
+									"borderWidth": 0,
+									"borderType": "solid",
+									"shadowBlur": 4,
+									"shadowColor": "rgba(0, 0, 0, 0.5)",
+									"shadowOffsetX": 1,
+									"shadowOffsetY": 1
+								}
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							],
+							"title": {
+								"show": true,
+								"text": "柱状图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "left",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 12,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "5",
+			"x": 0,
+			"y": 25,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 2,
+					"y": 2,
+					"w": 8,
+					"h": 10,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "simple-pie",
+						"detail": {
+							"sheetData": [
+								[
+									"男",
+									11
+								],
+								[
+									"女",
+									15
+								]
+							],
+							"nr": 2,
+							"nc": 2,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"simplePie": {
+								"type": "pie",
+								"hoverAnimation": false,
+								"clockwise": true,
+								"startAngle": 90,
+								"center": [
+									"50%",
+									"60%"
+								],
+								"radius": [
+									"30%",
+									"75%"
+								],
+								"label": {
+									"show": true,
+									"position": "outside",
+									"formatter": "{@[0]}: {@[1]} {d}%",
+									"color": "#aaa",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"alignTo": "none"
+								},
+								"itemStyle": {
+									"borderColor": "#000",
+									"borderWidth": 0,
+									"borderType": "solid",
+									"shadowBlur": 0,
+									"shadowColor": "rgba(0, 0, 0, 0.5)",
+									"shadowOffsetX": 1,
+									"shadowOffsetY": 1
+								},
+								"emphasis": {
+									"label": {
+										"show": true,
+										"position": "outside",
+										"formatter": "{@[0]}: {@[1]} {d}%",
+										"color": "#aaa",
+										"fontWeight": "bold",
+										"fontFamily": "Arial",
+										"fontSize": 14,
+										"alignTo": "none"
+									},
+									"itemStyle": {
+										"borderColor": "#000",
+										"borderWidth": 0,
+										"borderType": "solid",
+										"shadowBlur": 4,
+										"shadowColor": "rgba(0, 0, 0, 0.5)",
+										"shadowOffsetX": 1,
+										"shadowOffsetY": 1
+									}
+								}
+							},
+							"title": {
+								"show": true,
+								"text": "饼图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": "20",
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 1,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 0,
+									"textShadowOffsetX": 0,
+									"textShadowOffsetY": 0
+								},
+								"subtext": "",
+								"subtextStyle": {
+									"color": "#100",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 1,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 10,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 5
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"itemGap": 10,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							},
+							"legend": {
+								"show": true,
+								"type": "plain",
+								"left": "center",
+								"right": "auto",
+								"top": "10%",
+								"bottom": "auto",
+								"orient": "horizontal",
+								"align": "auto",
+								"padding": 5,
+								"itemGap": 10,
+								"itemWidth": 25,
+								"itemHeight": 14,
+								"icon": "roundRect",
+								"textStyle": {
+									"color": "#333",
+									"fontWeight": "normal",
+									"fontFamily": "sans-serif",
+									"fontSize": 14,
+									"lineHeight": 56
+								}
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							]
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "6",
+			"x": 0,
+			"y": 30,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 1,
+					"y": 2,
+					"w": 10,
+					"h": 11,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "simple-scatter",
+						"detail": {
+							"sheetData": [
+								[
+									"x",
+									"y"
+								],
+								[
+									10,
+									8.04
+								],
+								[
+									8,
+									6.95
+								],
+								[
+									13,
+									7.58
+								],
+								[
+									9,
+									8.81
+								],
+								[
+									11,
+									8.33
+								],
+								[
+									14,
+									9.96
+								],
+								[
+									6,
+									7.24
+								],
+								[
+									4,
+									4.26
+								],
+								[
+									12,
+									10.84
+								],
+								[
+									7,
+									4.82
+								],
+								[
+									5,
+									5.68
+								]
+							],
+							"nr": 4,
+							"nc": 5,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"label": {
+								"show": true,
+								"formatter": "{@[0]},{@[1]}",
+								"position": "top",
+								"distance": 5,
+								"rotate": 0,
+								"offset": [
+									0,
+									0
+								],
+								"color": "#fff",
+								"fontWeight": "normal",
+								"fontFamily": "san-serif",
+								"fontSize": 12
+							},
+							"itemStyle": {
+								"borderColor": "#000",
+								"borderWidth": 0,
+								"borderType": "solid",
+								"shadowBlur": 4,
+								"shadowColor": "rgba(0, 0, 0, 0.5)",
+								"shadowOffsetX": 1,
+								"shadowOffsetY": 1
+							},
+							"emphasis": {
+								"label": {
+									"show": true,
+									"formatter": "{@[0]},{@[1]}",
+									"position": "top",
+									"distance": 5,
+									"rotate": 0,
+									"offset": [
+										0,
+										0
+									],
+									"color": "#fff",
+									"fontWeight": "normal",
+									"fontFamily": "san-serif",
+									"fontSize": 12
+								},
+								"itemStyle": {
+									"borderColor": "#000",
+									"borderWidth": 0,
+									"borderType": "solid",
+									"shadowBlur": 4,
+									"shadowColor": "rgba(0, 0, 0, 0.5)",
+									"shadowOffsetX": 1,
+									"shadowOffsetY": 1
+								}
+							},
+							"simpleScatter": {
+								"type": "scatter",
+								"encode": {
+									"x": 0,
+									"y": 1
+								},
+								"symbol": "circle",
+								"symbolSize": 14
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							],
+							"title": {
+								"show": true,
+								"text": "散点图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 15,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							},
+							"xAxis": {
+								"show": true,
+								"type": "value",
+								"position": "bottom",
+								"name": "X轴名称",
+								"nameLocation": "center",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolSize": [
+										6,
+										9
+									],
+									"symbolOffset": 6,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 3,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "#ccc",
+										"width": 1,
+										"type": "dotted"
+									}
+								}
+							},
+							"yAxis": {
+								"show": true,
+								"type": "value",
+								"position": "bottom",
+								"name": "Y轴名称",
+								"nameLocation": "end",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolOffset": 6,
+									"symbolSize": [
+										6,
+										9
+									],
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 3,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "#ccc",
+										"width": 1,
+										"type": "dotted"
+									}
+								}
+							},
+							"grid": {
+								"containLabel": true,
+								"show": false,
+								"left": "5%",
+								"right": "5%",
+								"top": "20%",
+								"bottom": "5%"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "7",
+			"x": 0,
+			"y": 35,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 2,
+					"y": 1,
+					"w": 8,
+					"h": 12,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "china-map-c",
+						"detail": {
+							"sheetData": [
+								[
+									"河北",
+									4
+								],
+								[
+									"山东",
+									3
+								],
+								[
+									"河南",
+									3
+								],
+								[
+									"重庆",
+									2
+								],
+								[
+									"广西",
+									1
+								],
+								[
+									"四川",
+									1
+								],
+								[
+									"海南",
+									1
+								],
+								[
+									"北京",
+									4
+								],
+								[
+									"天津",
+									4
+								],
+								[
+									"上海",
+									3
+								],
+								[
+									"江苏",
+									3
+								],
+								[
+									"浙江",
+									2
+								],
+								[
+									"福建",
+									2
+								],
+								[
+									"安徽",
+									3
+								],
+								[
+									"江西",
+									2
+								],
+								[
+									"湖北",
+									3
+								],
+								[
+									"湖南",
+									2
+								],
+								[
+									"广东",
+									1
+								],
+								[
+									"辽宁",
+									4
+								],
+								[
+									"吉林",
+									4
+								],
+								[
+									"黑龙江",
+									4
+								],
+								[
+									"内蒙古",
+									4
+								],
+								[
+									"云南",
+									1
+								],
+								[
+									"贵州",
+									1
+								],
+								[
+									"山西",
+									5
+								],
+								[
+									"陕西",
+									5
+								],
+								[
+									"甘肃",
+									5
+								],
+								[
+									"新疆",
+									5
+								],
+								[
+									"西藏",
+									1
+								],
+								[
+									"青海",
+									5
+								],
+								[
+									"宁夏",
+									5
+								],
+								[
+									"台湾",
+									"NaN"
+								],
+								[
+									"香港",
+									"NaN"
+								],
+								[
+									"澳门",
+									"NaN"
+								],
+								[
+									"南海诸岛",
+									"NaN"
+								]
+							],
+							"nr": 34,
+							"nc": 2,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"visualMapC": {
+								"show": true,
+								"type": "continuous",
+								"orient": "vertical",
+								"left": "1%",
+								"right": "auto",
+								"bottom": "1%",
+								"top": "auto",
+								"min": 1,
+								"max": 10,
+								"text": [
+									"High",
+									"Low"
+								],
+								"textGap": 10,
+								"itemWidth": 20,
+								"itemHeight": 140,
+								"calculable": true,
+								"inRange": {
+									"color": [
+										"#D7DA8B",
+										"#E15457"
+									]
+								}
+							},
+							"simpleMap": {
+								"roam": true,
+								"left": "center",
+								"right": "auto",
+								"bottom": "1%",
+								"top": "5%",
+								"itemStyle": {
+									"normal": {
+										"borderColor": "rgba(126, 51, 51, 1)"
+									},
+									"emphasis": {
+										"areaColor": "#eee",
+										"borderColor": "#2B91B7"
+									}
+								}
+							},
+							"title": {
+								"show": true,
+								"text": "中国地图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 12,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "8",
+			"x": 0,
+			"y": 40,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 2,
+					"y": 1,
+					"w": 8,
+					"h": 12,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "dt-china-map",
+						"detail": {
+							"sheetData": [
+								[
+									"province",
+									"2010",
+									"2011",
+									"2012"
+								],
+								[
+									"河北",
+									4,
+									5,
+									6
+								],
+								[
+									"山东",
+									3,
+									5,
+									6
+								],
+								[
+									"河南",
+									3,
+									5,
+									6
+								],
+								[
+									"重庆",
+									2,
+									5,
+									6
+								],
+								[
+									"广西",
+									1,
+									5,
+									6
+								],
+								[
+									"四川",
+									1,
+									5,
+									6
+								],
+								[
+									"海南",
+									1,
+									5,
+									6
+								],
+								[
+									"北京",
+									4,
+									5,
+									6
+								],
+								[
+									"天津",
+									4,
+									5,
+									6
+								],
+								[
+									"上海",
+									3,
+									5,
+									6
+								],
+								[
+									"江苏",
+									3,
+									5,
+									6
+								],
+								[
+									"浙江",
+									2,
+									5,
+									6
+								],
+								[
+									"福建",
+									2,
+									5,
+									6
+								],
+								[
+									"安徽",
+									3,
+									5,
+									6
+								],
+								[
+									"江西",
+									2,
+									5,
+									6
+								],
+								[
+									"湖北",
+									3,
+									5,
+									6
+								],
+								[
+									"湖南",
+									2,
+									5,
+									6
+								],
+								[
+									"广东",
+									1,
+									5,
+									6
+								],
+								[
+									"辽宁",
+									4,
+									5,
+									6
+								],
+								[
+									"吉林",
+									4,
+									5,
+									6
+								],
+								[
+									"黑龙江",
+									4,
+									2,
+									3
+								],
+								[
+									"内蒙古",
+									4,
+									4,
+									7
+								],
+								[
+									"云南",
+									1,
+									2,
+									3
+								],
+								[
+									"贵州",
+									1,
+									2,
+									3
+								],
+								[
+									"山西",
+									5,
+									2,
+									3
+								],
+								[
+									"陕西",
+									5,
+									2,
+									3
+								],
+								[
+									"甘肃",
+									5,
+									2,
+									3
+								],
+								[
+									"新疆",
+									5,
+									2,
+									3
+								],
+								[
+									"西藏",
+									1,
+									2,
+									3
+								],
+								[
+									"青海",
+									5,
+									2,
+									3
+								],
+								[
+									"宁夏",
+									5,
+									2,
+									3
+								],
+								[
+									"台湾",
+									5,
+									2,
+									3
+								],
+								[
+									"香港",
+									5,
+									2,
+									3
+								],
+								[
+									"澳门",
+									5,
+									2,
+									3
+								],
+								[
+									"南海诸岛",
+									"NaN",
+									"NaN",
+									"NaN"
+								]
+							],
+							"nr": 36,
+							"nc": 4,
+							"animation": true,
+							"dtMap": {
+								"baseTitle": "年各省市人口数",
+								"roam": true,
+								"left": "center",
+								"right": "auto",
+								"bottom": "15%",
+								"top": "5%",
+								"itemStyle": {
+									"normal": {
+										"borderColor": "rgba(126, 51, 51, 1)"
+									},
+									"emphasis": {
+										"areaColor": "#eee",
+										"borderColor": "#2B91B7"
+									}
+								}
+							},
+							"timeline": {
+								"show": true,
+								"orient": "horizontal",
+								"inverse": false,
+								"left": "10%",
+								"right": "10%",
+								"top": "85%",
+								"bottom": "1%",
+								"axisType": "category",
+								"currentIndex": 0,
+								"autoPlay": true,
+								"rewind": false,
+								"loop": true,
+								"playInterval": 2000,
+								"realtime": true,
+								"controlPosition": "left",
+								"symbol": "emptyCircle",
+								"symbolSize": 10,
+								"lineStyle": {
+									"show": true,
+									"color": "#304654",
+									"width": 2,
+									"type": "solid"
+								},
+								"controlStyle": {
+									"show": true,
+									"showPlayBtn": true,
+									"showPrevBtn": true,
+									"showNextBtn": true,
+									"itemSize": 22,
+									"itemGap": 12,
+									"position": "left"
+								}
+							},
+							"backgroundColor": "transparent",
+							"visualMapC": {
+								"show": true,
+								"type": "continuous",
+								"orient": "vertical",
+								"left": "1%",
+								"right": "auto",
+								"bottom": "1%",
+								"top": "auto",
+								"min": 1,
+								"max": 10,
+								"text": [
+									"High",
+									"Low"
+								],
+								"textGap": 10,
+								"itemWidth": 20,
+								"itemHeight": 140,
+								"calculable": true,
+								"inRange": {
+									"color": [
+										"#D7DA8B",
+										"#E15457"
+									]
+								}
+							},
+							"title": {
+								"show": true,
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 12,
+								"left": "50%",
+								"right": "auto",
+								"top": "1%",
+								"bottom": "auto"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "9",
+			"x": 0,
+			"y": 45,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 1,
+					"y": 2,
+					"w": 10,
+					"h": 11,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "simple-line",
+						"detail": {
+							"sheetData": [
+								[
+									"",
+									"Ford",
+									"Tesla",
+									"Toyota",
+									"Honda"
+								],
+								[
+									"2017",
+									10,
+									11,
+									12,
+									13
+								],
+								[
+									"2018",
+									20,
+									11,
+									14,
+									13
+								],
+								[
+									"2019",
+									30,
+									15,
+									12,
+									13
+								]
+							],
+							"nr": 4,
+							"nc": 5,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"itemStyle": {
+								"borderColor": "#000",
+								"borderWidth": 0,
+								"borderType": "solid",
+								"shadowBlur": 4,
+								"shadowColor": "rgba(0, 0, 0, 0.5)",
+								"shadowOffsetX": 1,
+								"shadowOffsetY": 1
+							},
+							"simpleLine": {
+								"lineStyle": {
+									"width": 2,
+									"type": "solid"
+								},
+								"smooth": false
+							},
+							"title": {
+								"show": true,
+								"text": "折线图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 12,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							},
+							"legend": {
+								"show": true,
+								"type": "plain",
+								"left": "center",
+								"right": "auto",
+								"top": "5%",
+								"bottom": "auto",
+								"orient": "horizontal",
+								"align": "auto",
+								"padding": 5,
+								"itemGap": 10,
+								"itemWidth": 22,
+								"itemHeight": 12,
+								"textStyle": {
+									"color": "#333",
+									"fontWeight": "normal",
+									"fontFamily": "sans-serif",
+									"fontSize": 14,
+									"lineHeight": 56
+								}
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							],
+							"xAxis": {
+								"boundaryGap": false,
+								"show": true,
+								"type": "category",
+								"position": "bottom",
+								"name": "X轴名称",
+								"nameLocation": "center",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"none"
+									],
+									"symbolSize": [
+										6,
+										9
+									],
+									"symbolOffset": 6,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 5,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": false,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dashed"
+									}
+								}
+							},
+							"yAxis": {
+								"show": true,
+								"type": "value",
+								"position": "bottom",
+								"name": "Y轴名称",
+								"nameLocation": "end",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolOffset": 6,
+									"symbolSize": [
+										6,
+										9
+									],
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": true,
+									"length": 5,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dashed"
+									}
+								}
+							},
+							"grid": {
+								"containLabel": true,
+								"show": false,
+								"left": 20,
+								"right": 20,
+								"top": "20%",
+								"bottom": 20
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "10",
+			"x": 0,
+			"y": 50,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 1,
+					"y": 2,
+					"w": 10,
+					"h": 11,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "simple-bubble",
+						"detail": {
+							"sheetData": [
+								[
+									"x",
+									"y",
+									"size"
+								],
+								[
+									10,
+									8.04,
+									10
+								],
+								[
+									8,
+									6.95,
+									11
+								],
+								[
+									13,
+									7.58,
+									12
+								],
+								[
+									9,
+									8.81,
+									13
+								],
+								[
+									11,
+									8.33,
+									14
+								],
+								[
+									14,
+									9.96,
+									15
+								],
+								[
+									6,
+									7.24,
+									16
+								],
+								[
+									4,
+									4.26,
+									17
+								],
+								[
+									12,
+									10.84,
+									18
+								],
+								[
+									7,
+									4.82,
+									19
+								],
+								[
+									5,
+									5.68,
+									20
+								]
+							],
+							"nr": 4,
+							"nc": 5,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"label": {
+								"show": true,
+								"formatter": "{@[0]},{@[1]}",
+								"position": "top",
+								"distance": 5,
+								"rotate": 0,
+								"offset": [
+									0,
+									0
+								],
+								"color": "#fff",
+								"fontWeight": "normal",
+								"fontFamily": "san-serif",
+								"fontSize": 12
+							},
+							"itemStyle": {
+								"borderColor": "#000",
+								"borderWidth": 0,
+								"borderType": "solid",
+								"shadowBlur": 4,
+								"shadowColor": "rgba(0, 0, 0, 0.5)",
+								"shadowOffsetX": 1,
+								"shadowOffsetY": 1
+							},
+							"emphasis": {
+								"label": {
+									"show": true,
+									"formatter": "{@[0]},{@[1]}",
+									"position": "top",
+									"distance": 5,
+									"rotate": 0,
+									"offset": [
+										0,
+										0
+									],
+									"color": "#fff",
+									"fontWeight": "normal",
+									"fontFamily": "san-serif",
+									"fontSize": 12
+								},
+								"itemStyle": {
+									"borderColor": "#000",
+									"borderWidth": 0,
+									"borderType": "solid",
+									"shadowBlur": 4,
+									"shadowColor": "rgba(0, 0, 0, 0.5)",
+									"shadowOffsetX": 1,
+									"shadowOffsetY": 1
+								}
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							],
+							"title": {
+								"show": true,
+								"text": "气泡图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 15,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							},
+							"xAxis": {
+								"show": true,
+								"type": "value",
+								"position": "bottom",
+								"name": "X轴名称",
+								"nameLocation": "center",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolSize": [
+										6,
+										9
+									],
+									"symbolOffset": 6,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 3,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "#ccc",
+										"width": 1,
+										"type": "dotted"
+									}
+								}
+							},
+							"yAxis": {
+								"show": true,
+								"type": "value",
+								"position": "bottom",
+								"name": "Y轴名称",
+								"nameLocation": "end",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolOffset": 6,
+									"symbolSize": [
+										6,
+										9
+									],
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 3,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "#ccc",
+										"width": 1,
+										"type": "dotted"
+									}
+								}
+							},
+							"grid": {
+								"containLabel": true,
+								"show": false,
+								"left": "5%",
+								"right": "5%",
+								"top": "20%",
+								"bottom": "2%"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "11",
+			"x": 0,
+			"y": 55,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 1,
+					"y": 2,
+					"w": 10,
+					"h": 11,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "stack-bar",
+						"detail": {
+							"sheetData": [
+								[
+									"",
+									"Ford",
+									"Tesla",
+									"Toyota",
+									"Honda"
+								],
+								[
+									"2017",
+									10,
+									11,
+									12,
+									13
+								],
+								[
+									"2018",
+									20,
+									11,
+									14,
+									13
+								],
+								[
+									"2019",
+									30,
+									15,
+									12,
+									13
+								]
+							],
+							"nr": 4,
+							"nc": 5,
+							"simpleBar": {
+								"barMaxWidth": 50,
+								"barGap": "30%",
+								"barCategoryGap": "20%"
+							},
+							"animation": true,
+							"backgroundColor": "transparent",
+							"itemStyle": {
+								"borderColor": "#000",
+								"borderWidth": 0,
+								"borderType": "solid",
+								"shadowBlur": 4,
+								"shadowColor": "rgba(0, 0, 0, 0.5)",
+								"shadowOffsetX": 1,
+								"shadowOffsetY": 1
+							},
+							"label": {
+								"show": true,
+								"position": "insideTop",
+								"distance": 5,
+								"rotate": 0,
+								"offset": [
+									0,
+									0
+								],
+								"color": "blue",
+								"fontWeight": "normal",
+								"fontFamily": "san-serif",
+								"fontSize": 12
+							},
+							"emphasis": {
+								"label": {
+									"show": true,
+									"position": "insideTop",
+									"distance": 5,
+									"rotate": 0,
+									"offset": [
+										0,
+										0
+									],
+									"color": "red",
+									"fontWeight": "normal",
+									"fontFamily": "san-serif",
+									"fontSize": 12
+								},
+								"itemStyle": {
+									"borderColor": "#000",
+									"borderWidth": 0,
+									"borderType": "solid",
+									"shadowBlur": 4,
+									"shadowColor": "rgba(0, 0, 0, 0.5)",
+									"shadowOffsetX": 1,
+									"shadowOffsetY": 1
+								}
+							},
+							"title": {
+								"show": true,
+								"text": "柱状图",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 15,
+								"left": "50%",
+								"right": "auto",
+								"top": "2%",
+								"bottom": "auto"
+							},
+							"legend": {
+								"show": true,
+								"type": "plain",
+								"left": "center",
+								"right": "auto",
+								"top": "5%",
+								"bottom": "auto",
+								"orient": "horizontal",
+								"align": "auto",
+								"padding": 5,
+								"itemGap": 10,
+								"itemWidth": 25,
+								"itemHeight": 14,
+								"icon": "roundRect",
+								"textStyle": {
+									"color": "#333",
+									"fontWeight": "normal",
+									"fontFamily": "sans-serif",
+									"fontSize": 14,
+									"lineHeight": 56
+								}
+							},
+							"color": [
+								"#c23531",
+								"#2f4554",
+								"#61a0a8",
+								"#d48265",
+								"#91c7ae",
+								"#749f83",
+								"#ca8622",
+								"#bda29a",
+								"#6e7074",
+								"#546570",
+								"#c4ccd3",
+								"rgba(0,0,84,1)"
+							],
+							"xAxis": {
+								"show": true,
+								"type": "category",
+								"position": "bottom",
+								"name": "X轴名称",
+								"nameLocation": "center",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"none"
+									],
+									"symbolSize": [
+										6,
+										9
+									],
+									"symbolOffset": 6,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 5,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": false,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dashed"
+									}
+								}
+							},
+							"yAxis": {
+								"show": true,
+								"type": "value",
+								"position": "bottom",
+								"name": "Y轴名称",
+								"nameLocation": "end",
+								"nameTextStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "normal",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 14,
+									"lineHeight": 5
+								},
+								"nameGap": 25,
+								"nameRotate": 0,
+								"inverse": false,
+								"axisLine": {
+									"show": true,
+									"onZero": true,
+									"symbol": [
+										"none",
+										"arrow"
+									],
+									"symbolOffset": 6,
+									"symbolSize": [
+										6,
+										9
+									],
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"axisTick": {
+									"show": true,
+									"alignWithLable": false,
+									"interval": "auto",
+									"inside": false,
+									"length": 3,
+									"lineStyle": {
+										"color": "#333",
+										"width": 1,
+										"type": "solid"
+									}
+								},
+								"splitLine": {
+									"show": true,
+									"interval": "auto",
+									"lineStyle": {
+										"color": "rgba(28, 51, 28, 0.81)",
+										"width": 1,
+										"type": "dotted"
+									}
+								}
+							},
+							"grid": {
+								"containLabel": true,
+								"show": false,
+								"left": "5%",
+								"right": "5%",
+								"top": "20%",
+								"bottom": "2%"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "12",
+			"x": 0,
+			"y": 60,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 0,
+					"y": 1,
+					"w": 12,
+					"h": 13,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "bounce",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "world-map-c",
+						"detail": {
+							"sheetData": [
+								[
+									"name",
+									"value"
+								],
+								[
+									"Afghanistan",
+									28397.812
+								],
+								[
+									"Angola",
+									19549.124
+								],
+								[
+									"Albania",
+									3150.143
+								],
+								[
+									"United Arab Emirates",
+									8441.537
+								],
+								[
+									"United States",
+									8441.537
+								],
+								[
+									"Argentina",
+									40374.224
+								],
+								[
+									"Armenia",
+									2963.496
+								],
+								[
+									"French Southern and Antarctic Lands",
+									268.065
+								],
+								[
+									"Australia",
+									22404.488
+								],
+								[
+									"Austria",
+									8401.924
+								],
+								[
+									"Azerbaijan",
+									9094.718
+								],
+								[
+									"Burundi",
+									9232.753
+								],
+								[
+									"Belgium",
+									10941.288
+								],
+								[
+									"Benin",
+									9509.798
+								],
+								[
+									"Burkina Faso",
+									15540.284
+								],
+								[
+									"Bangladesh",
+									151125.475
+								],
+								[
+									"Bulgaria",
+									7389.175
+								],
+								[
+									"The Bahamas",
+									66402.316
+								],
+								[
+									"Bosnia and Herz.",
+									3845.929
+								],
+								[
+									"Belarus",
+									9491.07
+								],
+								[
+									"Belize",
+									308.595
+								],
+								[
+									"Bermuda",
+									64.951
+								],
+								[
+									"Bolivia",
+									716.939
+								],
+								[
+									"Brazil",
+									195210.154
+								],
+								[
+									"Brunei",
+									27.223
+								],
+								[
+									"Bhutan",
+									716.939
+								],
+								[
+									"Botswana",
+									1969.341
+								],
+								[
+									"Central African Rep.",
+									4349.921
+								],
+								[
+									"Canada",
+									34126.24
+								],
+								[
+									"Switzerland",
+									7830.534
+								],
+								[
+									"Chile",
+									17150.76
+								],
+								[
+									"China",
+									1359821.465
+								],
+								[
+									"Ivory Coast",
+									60508.978
+								],
+								[
+									"Cameroon",
+									20624.343
+								],
+								[
+									"Dem. Rep. Congo",
+									62191.161
+								],
+								[
+									"Congo",
+									3573.024
+								],
+								[
+									"Colombia",
+									46444.798
+								],
+								[
+									"Costa Rica",
+									4669.685
+								],
+								[
+									"Cuba",
+									11281.768
+								],
+								[
+									"Northern Cyprus",
+									1.468
+								],
+								[
+									"Cyprus",
+									1103.685
+								],
+								[
+									"Czech Rep.",
+									10553.701
+								],
+								[
+									"Germany",
+									83017.404
+								],
+								[
+									"Djibouti",
+									834.036
+								],
+								[
+									"Denmark",
+									5550.959
+								],
+								[
+									"Dominican Republic",
+									10016.797
+								],
+								[
+									"Algeria",
+									37062.82
+								],
+								[
+									"Ecuador",
+									15001.072
+								],
+								[
+									"Egypt",
+									78075.705
+								],
+								[
+									"Eritrea",
+									5741.159
+								],
+								[
+									"Spain",
+									46182.038
+								],
+								[
+									"Estonia",
+									1298.533
+								],
+								[
+									"Ethiopia",
+									87095.281
+								],
+								[
+									"Finland",
+									5367.693
+								],
+								[
+									"Fiji",
+									860.559
+								],
+								[
+									"Falkland Islands",
+									49.581
+								],
+								[
+									"France",
+									63230.866
+								],
+								[
+									"Gabon",
+									1556.222
+								],
+								[
+									"United Kingdom",
+									62066.35
+								],
+								[
+									"Georgia",
+									4388.674
+								],
+								[
+									"Ghana",
+									24262.901
+								],
+								[
+									"Guinea",
+									10876.033
+								],
+								[
+									"Gambia",
+									1680.64
+								],
+								[
+									"Guinea Bissau",
+									10876.033
+								],
+								[
+									"Equatorial Guinea",
+									696.167
+								],
+								[
+									"Greece",
+									11109.999
+								],
+								[
+									"Greenland",
+									56.546
+								],
+								[
+									"Guatemala",
+									14341.576
+								],
+								[
+									"French Guiana",
+									231.169
+								],
+								[
+									"Guyana",
+									786.126
+								],
+								[
+									"Honduras",
+									7621.204
+								],
+								[
+									"Croatia",
+									4338.027
+								],
+								[
+									"Haiti",
+									9896.4
+								],
+								[
+									"Hungary",
+									10014.633
+								],
+								[
+									"Indonesia",
+									240676.485
+								],
+								[
+									"India",
+									1205624.648
+								],
+								[
+									"Ireland",
+									4467.561
+								],
+								[
+									"Iran",
+									240676.485
+								],
+								[
+									"Iraq",
+									30962.38
+								],
+								[
+									"Iceland",
+									318.042
+								],
+								[
+									"Israel",
+									7420.368
+								],
+								[
+									"Italy",
+									60508.978
+								],
+								[
+									"Jamaica",
+									2741.485
+								],
+								[
+									"Jordan",
+									6454.554
+								],
+								[
+									"Japan",
+									127352.833
+								],
+								[
+									"Kazakhstan",
+									15921.127
+								],
+								[
+									"Kenya",
+									40909.194
+								],
+								[
+									"Kyrgyzstan",
+									5334.223
+								],
+								[
+									"Cambodia",
+									14364.931
+								],
+								[
+									"Côte dlvoire",
+									14364.93
+								],
+								[
+									"Korea",
+									51452.352
+								],
+								[
+									"Kosovo",
+									97.743
+								],
+								[
+									"Kuwait",
+									2991.58
+								],
+								[
+									"Lao PDR",
+									6395.713
+								],
+								[
+									"Lebanon",
+									4341.092
+								],
+								[
+									"Liberia",
+									3957.99
+								],
+								[
+									"Libya",
+									6040.612
+								],
+								[
+									"Sri Lanka",
+									20758.779
+								],
+								[
+									"Lesotho",
+									2008.921
+								],
+								[
+									"Lithuania",
+									3068.457
+								],
+								[
+									"Luxembourg",
+									507.885
+								],
+								[
+									"Latvia",
+									2090.519
+								],
+								[
+									"Morocco",
+									31642.36
+								],
+								[
+									"Moldova",
+									103.619
+								],
+								[
+									"Madagascar",
+									21079.532
+								],
+								[
+									"Mexico",
+									117886.404
+								],
+								[
+									"Macedonia",
+									507.885
+								],
+								[
+									"Mali",
+									13985.961
+								],
+								[
+									"Myanmar",
+									51931.231
+								],
+								[
+									"Montenegro",
+									620.078
+								],
+								[
+									"Mongolia",
+									2712.738
+								],
+								[
+									"Mozambique",
+									23967.265
+								],
+								[
+									"Mauritania",
+									3609.42
+								],
+								[
+									"Malawi",
+									15013.694
+								],
+								[
+									"Malaysia",
+									28275.835
+								],
+								[
+									"Namibia",
+									2178.967
+								],
+								[
+									"New Caledonia",
+									246.379
+								],
+								[
+									"Niger",
+									15893.746
+								],
+								[
+									"Nigeria",
+									159707.78
+								],
+								[
+									"Nicaragua",
+									5822.209
+								],
+								[
+									"Netherlands",
+									16615.243
+								],
+								[
+									"Norway",
+									4891.251
+								],
+								[
+									"Nepal",
+									26846.016
+								],
+								[
+									"New Zealand",
+									4368.136
+								],
+								[
+									"Oman",
+									2802.768
+								],
+								[
+									"Pakistan",
+									173149.306
+								],
+								[
+									"Panama",
+									3678.128
+								],
+								[
+									"Peru",
+									29262.83
+								],
+								[
+									"Philippines",
+									93444.322
+								],
+								[
+									"Papua New Guinea",
+									6858.945
+								],
+								[
+									"Poland",
+									38198.754
+								],
+								[
+									"Puerto Rico",
+									3709.671
+								],
+								[
+									"Dem. Rep. Korea",
+									1.468
+								],
+								[
+									"Portugal",
+									10589.792
+								],
+								[
+									"Paraguay",
+									6459.721
+								],
+								[
+									"Qatar",
+									1749.713
+								],
+								[
+									"Romania",
+									21861.476
+								],
+								[
+									"Russia",
+									21861.476
+								],
+								[
+									"Rwanda",
+									10836.732
+								],
+								[
+									"W. Sahara",
+									514.648
+								],
+								[
+									"Saudi Arabia",
+									27258.387
+								],
+								[
+									"Sudan",
+									35652.002
+								],
+								[
+									"S. Sudan",
+									9940.929
+								],
+								[
+									"Senegal",
+									12950.564
+								],
+								[
+									"Solomon Islands",
+									526.447
+								],
+								[
+									"Sierra Leone",
+									5751.976
+								],
+								[
+									"El Salvador",
+									6218.195
+								],
+								[
+									"Somaliland",
+									9636.173
+								],
+								[
+									"Somalia",
+									9636.173
+								],
+								[
+									"Serbia",
+									3573.024
+								],
+								[
+									"Suriname",
+									524.96
+								],
+								[
+									"Slovakia",
+									5433.437
+								],
+								[
+									"Slovenia",
+									2054.232
+								],
+								[
+									"Sweden",
+									9382.297
+								],
+								[
+									"Swaziland",
+									1193.148
+								],
+								[
+									"Syria",
+									7830.534
+								],
+								[
+									"Chad",
+									11720.781
+								],
+								[
+									"Togo",
+									6306.014
+								],
+								[
+									"Thailand",
+									66402.316
+								],
+								[
+									"Tajikistan",
+									7627.326
+								],
+								[
+									"Turkmenistan",
+									5041.995
+								],
+								[
+									"East Timor",
+									10016.797
+								],
+								[
+									"Trinidad and Tobago",
+									1328.095
+								],
+								[
+									"Tunisia",
+									10631.83
+								],
+								[
+									"Turkey",
+									72137.546
+								],
+								[
+									"Tanzania",
+									44973.33
+								],
+								[
+									"Uganda",
+									33987.213
+								],
+								[
+									"Ukraine",
+									46050.22
+								],
+								[
+									"Uruguay",
+									3371.982
+								],
+								[
+									"United States of America",
+									312247.116
+								],
+								[
+									"Uzbekistan",
+									27769.27
+								],
+								[
+									"Venezuela",
+									236.299
+								],
+								[
+									"Vietnam",
+									89047.397
+								],
+								[
+									"Vanuatu",
+									236.299
+								],
+								[
+									"West Bank",
+									13.565
+								],
+								[
+									"Yemen",
+									22763.008
+								],
+								[
+									"South Africa",
+									51452.352
+								],
+								[
+									"Zambia",
+									13216.985
+								],
+								[
+									"Zimbabwe",
+									13076.978
+								]
+							],
+							"nr": 34,
+							"nc": 2,
+							"animation": true,
+							"backgroundColor": "transparent",
+							"visualMapC": {
+								"show": true,
+								"type": "continuous",
+								"orient": "vertical",
+								"left": "1%",
+								"right": "auto",
+								"bottom": "1%",
+								"top": "auto",
+								"min": 1,
+								"max": 1500000,
+								"text": [
+									"High",
+									"Low"
+								],
+								"textGap": 10,
+								"itemWidth": 20,
+								"itemHeight": 140,
+								"calculable": true,
+								"inRange": {
+									"color": [
+										"#D7DA8B",
+										"#E15457"
+									]
+								}
+							},
+							"simpleMap": {
+								"roam": true,
+								"left": "center",
+								"right": "auto",
+								"bottom": "1%",
+								"top": "5%",
+								"itemStyle": {
+									"normal": {
+										"borderColor": "rgba(126, 51, 51, 1)"
+									},
+									"emphasis": {
+										"areaColor": "#eee",
+										"borderColor": "#2B91B7"
+									}
+								}
+							},
+							"title": {
+								"show": true,
+								"text": "World Population(2010)",
+								"textStyle": {
+									"color": "#333",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Microsoft YaHei",
+									"fontSize": 20,
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"subtext": "副标题",
+								"subtextStyle": {
+									"color": "#aaa",
+									"fontStyle": "normal",
+									"fontWeight": "bold",
+									"fontFamily": "Arial",
+									"fontSize": 14,
+									"align": "center",
+									"lineHeight": 5,
+									"textBorderColor": "transparent",
+									"textBorderWidth": 0,
+									"textShadowColor": "transparent",
+									"textShadowBlur": 2,
+									"textShadowOffsetX": 1,
+									"textShadowOffsetY": 1
+								},
+								"textAlign": "center",
+								"textVerticalAlign": "auto",
+								"padding": 5,
+								"itemGap": 12,
+								"left": "50%",
+								"right": "auto",
+								"top": "1%",
+								"bottom": "auto"
+							}
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		},
+		{
+			"i": "13",
+			"x": 0,
+			"y": 65,
+			"w": 1,
+			"h": 5,
+			"slideAnimation": {
+				"steps": 1,
+				"enter": "fadeInLeft",
+				"leave": "fadeOut"
+			},
+			"SlideContent": [
+				{
+					"x": 0,
+					"y": 4,
+					"w": 12,
+					"h": 4,
+					"i": "0",
+					"itemBorder": {
+						"width": 0,
+						"type": "solid",
+						"color": "#808080",
+						"radius": 1
+					},
+					"itemAnimation": {
+						"order": 1,
+						"enter": "fadeInLeft",
+						"leave": "fadeOut"
+					},
+					"itemContent": {
+						"type": "base-image",
+						"detail": {
+							"src": "data:image/png;base64,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"
+						}
+					},
+					"moved": false
+				}
+			],
+			"moved": false
+		}
+	],
+	"background": "rgba(200,200,200,0.1)"
+})
