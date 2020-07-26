@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>图秀</title>
         <script src="./js/vue.js"></script>
         <script src="./js/data-slide.umd.min.js"></script>
         <script type="text/javascript">
@@ -56,8 +56,8 @@
                     <el-dropdown-item command="browse">Browse</el-dropdown-item>
                 </el-dropdown-menu>
             </el-dropdown>
-            <input id="upload" ref="upload" style="display: none" type="file" @change="changeFile" class="option"
-                accept=".json">
+            <!-- <input id="upload" ref="upload" style="display: none" type="file" @change="changeFile" class="option"
+                accept=".json"> -->
         </div>
     </body>
     <script>
@@ -66,49 +66,6 @@
                 currentComponent: 'data-slide-eagle',
                 layout: data.layout,
                 background: data.background,
-                layout1: [
-                    {
-                        i: '0',
-                        x: 0,
-                        y: 0,
-                        w: 1,
-                        h: 5,
-                        slideAnimation: { steps: 2, enter: 'fadeInLeft', leave: 'fadeOut' },
-                        SlideContent: [{
-                            x: 0,
-                            y: 4,
-                            w: 12,
-                            h: 4,
-                            i: '0',
-                            itemBorder: { width: 0, type: 'solid', color: '#808080', radius: 0 },
-                            itemAnimation: { order: 1, enter: 'fadeInLeft', leave: 'fadeOut' },
-                            itemContent: {
-                                type: 'ck-text',
-                                detail: {
-                                    text: '<p style="text-align:center;"><span style="font-size:48px;"><strong>XX公司2020年度总结</strong></span></p>',
-                                    background: 'transparent'
-                                }
-                            }
-                        },
-                        {
-                            x: 4,
-                            y: 8,
-                            w: 4,
-                            h: 3,
-                            i: '1',
-                            itemBorder: { width: 0, type: 'solid', color: '#808080', radius: 1 },
-                            itemAnimation: { order: 2, enter: 'bounce', leave: 'fadeOut' },
-                            itemContent: {
-                                type: 'ck-text',
-                                detail: {
-                                    text: '<p style="text-align:center;"><span style="font-size:24px;font-family:楷体;">2020.03.30</span></p>',
-                                    background: 'rgba(1,1,1,0.2)'
-                                }
-                            }
-                        }]
-                    }
-                ],
-                background1: '#e9dfdf',
                 slideHeight: 720
             },
             methods: {
