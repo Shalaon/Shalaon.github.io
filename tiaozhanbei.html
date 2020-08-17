@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>图秀</title>
+        <script src="./js/vue.js"></script>
+        <script src="./js/data-slide.umd.min.js"></script>
+        <script type="text/javascript">
+            var data
+            function indexDemo(result) {
+                data = result
+                console.log(data)
+            }
+        </script>
+        <script type="text/javascript" src="tiaozhanbei.json?callback=indexDemo"></script>
+        <style>
+            * {
+                margin: 0;
+            }
+
+            @font-face {
+                font-family: element-icons;
+                src: url(./fonts/element-icons.535877f5.woff) format('woff'), url(./fonts/element-icons.732389de.ttf) format('truetype');
+            }
+
+            .option {
+                z-index: 3;
+                position: fixed;
+                right: 0;
+                bottom: 0;
+            }
+
+            .el-dropdown-link {
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="app">
+            <div id="slide">
+                <keep-alive>
+                    <component v-bind:is="currentComponent" :layout="layout" :background="background"
+                        :slide-Height="slideHeight"></component>
+                </keep-alive>
+            </div>
+            <el-dropdown class="option" @command="handleCommand">
+                <span class="el-dropdown-link">
+                    TO SHOW
+                </span>
+                <el-dropdown-menu slot="dropdown">
+                    <!-- <el-dropdown-item command="open">文件</el-dropdown-item> -->
+                    <el-dropdown-item command="play">放映模式</el-dropdown-item>
+                    <el-dropdown-item command="browse">浏览模式</el-dropdown-item>
+                </el-dropdown-menu>
+            </el-dropdown>
+            <!-- <input id="upload" ref="upload" style="display: none" type="file" @change="changeFile" class="option"
+                accept=".json"> -->
+        </div>
+    </body>
+    <script>
+        new Vue({
+            data: {
+                currentComponent: 'data-slide-eagle',
+                layout: data.layout,
+                background: data.background,
+                slideHeight: 720
+            },
+            methods: {
+                getHeight() {
+                    this.slideHeight = window.innerHeight
+                },
+                handleCommand(command) {
+                    switch (command) {
+                        case 'play':
+                            this.currentComponent = "data-slide-eagle";
+                            break;
+                        case 'browse':
+                            this.currentComponent = "data-slide-carousel";
+                            break;
+                        default:
+                            this.openFile()
+                    }
+                },
+                openFile() {
+                    this.$refs.upload.click()
+                },
+                changeFile() {
+                    const file = this.$refs.upload.files[0]
+                    if (!!file) {
+                        const reader = new FileReader()
+                        reader.readAsText(file)
+                        reader.addEventListener('load', () => {
+                            var data = JSON.parse(reader.result)
+                            this.layout = data.layout
+                            this.background = data.background
+                        }, false)
+                    }
+                    //
+                    console.log('结束')
+                }
+            },
+            created() {
+                window.addEventListener('resize', this.getHeight);
+                this.getHeight()
+            },
+            destroyed() {
+                window.removeEventListener('resize', this.getHeight)
+            }
+        }).$mount('#app')
+    </script>
+
+</html>
